@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>個人履歷 - 114022057</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        :root { --primary-color: #2c3e50; --accent-color: #3498db; --bg-color: #f4f7f6; --text-color: #333; }
+        body { font-family: 'Noto Sans TC', sans-serif; line-height: 1.6; color: var(--text-color); background-color: var(--bg-color); margin: 0; padding: 20px; display: flex; justify-content: center; }
+        .resume-container { background: #fff; width: 100%; max-width: 900px; display: flex; border-radius: 15px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.15); }
+        .sidebar { background-color: var(--primary-color); color: white; width: 35%; padding: 40px 25px; text-align: center; }
+        .profile-img { width: 160px; height: 160px; border-radius: 50%; border: 4px solid var(--accent-color); object-fit: cover; margin-bottom: 25px; background-color: #fff; }
+        .sidebar h2 { margin: 10px 0 5px; font-size: 1.6em; }
+        .student-id { color: var(--accent-color); font-weight: bold; display: block; margin-bottom: 30px; }
+        .main-content { padding: 40px 50px; width: 65%; }
+        header { border-bottom: 3px solid var(--accent-color); padding-bottom: 15px; margin-bottom: 30px; }
+        h3 { color: var(--accent-color); border-bottom: 1px solid #eee; padding-bottom: 5px; }
+        .skill-tag { background: #e1f0fa; color: var(--accent-color); padding: 5px 12px; border-radius: 20px; font-size: 0.85em; margin: 3px; display: inline-block; }
+        @media (max-width: 768px) { .resume-container { flex-direction: column; } .sidebar, .main-content { width: 100%; } }
+    </style>
+</head>
+<body>
+    <div class="resume-container">
+        <aside class="sidebar">
+            <img src="my_photo.jpg.jpg" alt="張詠鈞" class="profile-img">
+            <h2>張詠鈞</h2>
+            <span class="student-id">學號：114022057</span>
+            <p>📧 114022057@asia.edu.tw</p>
+        </aside>
+        <div class="main-content">
+            <header><h1>個人履歷</h1><p>亞洲大學 | FinTech 學習者</p></header>
+            <section><h3>關於我</h3><p>我是張詠鈞，目前就讀亞洲大學。這是我重新建立的精簡版履歷，展現我學習網頁開發與 Git 的成果。</p></section>
+            <section><h3>專業技能</h3>
+                <div class="skills-container">
+                    <span class="skill-tag">HTML / CSS</span>
+                    <span class="skill-tag">GitHub Pages</span>
+                    <span class="skill-tag">AI 協作開發</span>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
